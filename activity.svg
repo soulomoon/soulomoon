@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="385" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="618" class="">
     <defs>
         <style/>
     </defs>
@@ -15,6 +15,106 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 15 commits in
+                                        <span class="repo">soulomoon/hnix-store</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">dev</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#27b2d1d</div>
+                                        <div class="message">add doc and refactor</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a8bd0d0</div>
+                                        <div class="message">stash the remote changes so pipelines would work</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c588f6e</div>
+                                        <div class="message">rename  filePathToNar to dumpPath
+and move it to Nix.Nar</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#58f4038</div>
+                                        <div class="message">exposing dumpString in Nix.Nar
+
+remove trailling whitespace</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2cca6a3</div>
+                                        <div class="message">Rmove path filtering from addToStore
+Since NarSource, It should be done building NarSource
+
+format</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#f2f95f9</div>
+                                        <div class="message">replace the filepath argument in `addToStore` with a more common type
+`type NarSource m =  (ByteString -&gt; m ()) -&gt; m ()`.
+* `FilePath` can turn to `NarSource m`.
+* `Text` can turn to `NarSource m`</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#4185057</div>
+                                        <div class="message">Merge pull request #183 from haskell-nix/srk/relax_graphs
+
+core: allow algebraic-graphs 0.6</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#df0dd83</div>
+                                        <div class="message">core: allow algebraic-graphs 0.6
+
+Closes #180.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#83619f3</div>
+                                        <div class="message">Merge pull request #182 from haskell-nix/srk/test_fixes
+
+Remote testsuite fixes for Nix 2.6</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2d34df0</div>
+                                        <div class="message">overlay.nix: use relude 1.0 for hnix-store-remote</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a3a0cb3</div>
+                                        <div class="message">Merge pull request #172 from haskell-nix/2021-11-15-fxs
+
+remote/tests/NixDaemon: use Text</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#082cad8</div>
+                                        <div class="message">remote: drop derivation test
+
+This was a hack to test serialization/protocol
+but the fake derivation won't pass validation
+with Nix 2.6. This needs to be tested in combination
+with hnix with valid derivation.
+
+Closes #178</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#dfa55dc</div>
+                                        <div class="message">remote: set HOME for tests</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#a432ee2</div>
+                                        <div class="message">remote: test: NixDaemon: fx Text use</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#aecfd03</div>
+                                        <div class="message">dep: Core,Remote: relude &gt;= 1.0</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -91,26 +191,6 @@
                                     <div class="commit">
                                         <div class="sha">#e85954d</div>
                                         <div class="message">can be finished</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">soulomoon/mapreducehs</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#12f8257</div>
-                                        <div class="message">update</div>
                                     </div>
                                 </div>
                             </section>
