@@ -17,6 +17,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![suica's GitHub stats](https://github-readme-stats.vercel.app/api?username=soulmoon&show_icons=true&theme=transparent)
+![suica's GitHub stats](https://github-readme-stats.vercel.app/api?username=soulomoon&show_icons=true&theme=transparent)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=soulmoon&layout=donut)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=soulomoon&layout=donut)
