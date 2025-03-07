@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 Haskell addict
+- 🔭 Haskell addict, great at solving complex problem.
 - 🌱 contributing to ghc to boost up haskell programming experience, find me at https://gitlab.haskell.org/soulomoon
 - contributing haskell language server
 <!--
