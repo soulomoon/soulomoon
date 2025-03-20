@@ -1,8 +1,7 @@
 ### Hi there 👋
 
 - 🔭 Haskell addict, great at solving complex problem.
-- 🌱 contributing to ghc to boost up haskell programming experience, find me at https://gitlab.haskell.org/soulomoon
-- contributing haskell language server
+- 🌱 contributing to ghc and haskell language server to boost up haskell programming experience, find me at https://gitlab.haskell.org/soulomoon
 <!--
 **soulmoon/soulmoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
